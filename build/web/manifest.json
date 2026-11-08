@@ -1,0 +1,12 @@
+{
+  "name": "CHORD",
+  "short_name": "CHORD",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1C1C21",
+  "theme_color": "#9D6BFF",
+  "description": "A simple music player built with Flutter.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": []
+}
