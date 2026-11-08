@@ -1,0 +1,21 @@
+name: chord
+description: CHORD - a simple music player built with Flutter Web (JNTUH R22 project).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2        # state management
+  audioplayers: ^6.1.0    # audio playback (works on Flutter Web)
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
